@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.insultos-container{
+    background-color: #ddd;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.insultos-container ul {
+    list-style: none;
+    margin: 0 15px;
+}
+.insulto1 , .insulto2{
+    margin: 4px;
+    border: 2px solid #000;
+}
+b{
+    display: inline-block;
+    background: #ddd;
+    border: 2px solid #ccc;
+    padding:5px;
+    margin: 5px;
+}
+b:hover{
+    background-color: rgba(200, 150, 255, 0.795);
+}
+.btn-gen{
+    margin: 10px 15px;
+    padding: 10px;
+
+}
+.btn-gen:hover{
+    background-color: #df4;
+    border: none;
+}
